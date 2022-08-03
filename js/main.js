@@ -1,22 +1,14 @@
-var footer = document.getElementsByClassName("footer-bottom-media");
+var footer = document.getElementsByClassName("footer-bottom-flex");
 var i;
+ $(document).ready(function () {
+            for (i = 0; i < footer.length; i++) {
+                footer[i].addEventListener("click", function () {
+                    this.parentElement.classList.toggle("active");
+                });
+            }
 
-for (i = 0; i < footer.length; i++) {
-    footer[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-    });
-}
-$(document).ready(function() {
-    $('.header-hover').mouseover(function() {
-        $('.header-bottom-hover').toggleClass('active');
-    });
-    $('.header-bottom-hover').mouseover(function() {
-        $('.header-bottom-hover').addClass('active');
-    });
-    $('.header-bottom-hover').mouseout(function() {
-        $('.header-bottom-hover').removeClass('active');
-    });
-})
+        });
+
 var card = document.getElementsByClassName("card-item");
 var i;
 
@@ -41,11 +33,24 @@ $(function(){
 });
 $(document).ready(function() {
     $('.header-up-item-right-burger').click(function() {
-        $('.header-up-item-right-burger').toggleClass('active');
-        $('.header-bottom').toggleClass('active');
-        $('.header-bottom-inner').toggleClass('active');
-        $('.header-bottom-inner-active').toggleClass('active');
-        $('.header-bottom-item').toggleClass('active');
-        $('.header-up-item-right-svg-left').toggleClass('active');
+        $('.header-up-item-right-burger,.header-bottom,.header-bottom-inner,.header-bottom-inner-active,.header-bottom-item,.header-up-item-right-svg-left,.main-btm, .video-play').toggleClass('active');
+        $('body').toggleClass('lock');
     });
 });
+
+$(document).ready(function() {
+    $('.custom-checkbox').click(function() {
+        $('.btn').toggleClass('disable');
+    });
+});
+var videoEl = document.getElementsByTagName('video')[0]
+playBtn = document.querySelector('.main-bottom-left-image')
+playBtn.addEventListener('click', function () {
+    if (videoEl.paused) {
+        videoEl.play();
+        $('.video-play').addClass('active')
+    } else {
+        videoEl.pause();
+        $('.video-play').removeClass('active')
+    }
+}, false);
