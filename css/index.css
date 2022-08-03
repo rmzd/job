@@ -930,7 +930,7 @@ a{
         font-weight: 700;
     }
     .main-picture{
-        margin-left: -4px
+        margin-left: -4px;
     }
 }
 @media (max-width: 900px) {
