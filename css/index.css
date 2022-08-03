@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     left: 0;
     top: 0;
-    background: #F7F7F7;
+    background: #FFFFFF;
     font-style: normal;
     overflow-x:hidden;
     max-width: 1920px;
@@ -837,7 +837,7 @@ a{
     color: transparent;
     border: 0;
     outline: none;
-    background-image: url("img/cyrcle.png);
+    background: url("img/cyrcle.png");
     background-repeat: no-repeat;
 
 }
@@ -1796,7 +1796,7 @@ a{
     display: -webkit-flex;
     display: -ms-flexbox;
     width: 100%;
-    background: #FFFFFF;
+    background: #F7F7F7;
     position: relative;
     margin-top: 138px;
 
@@ -1820,7 +1820,7 @@ a{
     display: none;
 }
 .flower-left-text{
-    background: #FFFFFF;
+    background: #F7F7F7;
     margin-top: 154px;
     margin-left: 149px;
 }
@@ -1897,13 +1897,11 @@ a{
         transform: rotate(180deg);
         position: absolute;
     }
-.video-second {
-    max-width: 1111px;
-    min-width: 1111px;
-    max-height: 514px;
-    min-height: 514px;
-    margin-left: -100px;
-}
+    .video-second{
+        max-width: 497px;
+        max-height: 297px;
+        min-height: 297px;
+    }
 }
 @media (max-width: 980px) {
     .flower{
@@ -2319,7 +2317,7 @@ a{
 .custom-checkbox:checked+label::before {
      border-color: #FFFFFF;
      background-color: #FD9F32;
-     background-image: url("./img/vector.png");
+     background-image: url("img/vector.png");
     background-size:11px 7.5px;
  }
 
