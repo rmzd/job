@@ -2319,7 +2319,7 @@ a{
 .custom-checkbox:checked+label::before {
      border-color: #FFFFFF;
      background-color: #FD9F32;
-     background-image: url("img/vector.png");
+     background-image: url(".../img/vector.png");
     background-size:11px 7.5px;
  }
 
@@ -2464,7 +2464,7 @@ a{
 
 /*second-footer*/
 .footer-bottom{
-    background-image: url("img/footer-bottom.png") ;
+    background-image: url(".../img/footer-bottom.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 430px;
@@ -2907,7 +2907,7 @@ a{
 
         .footer-bottom{
             background-size: cover;
-            background-image: url("img/footer-bottom-small.png");
+            background-image: url(".../img/footer-bottom-small.png");
         }
 
 
