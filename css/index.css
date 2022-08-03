@@ -546,12 +546,14 @@ a{
 .main{
     margin-left: 64px;
 }
-.main-up{
+.main-up {
     display: flex;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     gap: 16px;
+    position: absolute;
+    z-index: 1000000;
 }
 .main-picture{
     display: block;
