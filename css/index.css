@@ -606,7 +606,7 @@ a{
     margin-top: -5px;
 }
 .fafa{
-    background-image: url(".../img/slide-second.png");
+    background-image: url("../img/slide-second.png");
 }
 @media (max-width: 1200px) {
     .main-slider-picture img{
@@ -837,7 +837,7 @@ a{
     color: transparent;
     border: 0;
     outline: none;
-    background: (".../img/cyrcle.png);
+    background: ("../img/cyrcle.png);
     background-repeat: no-repeat;
 
 }
@@ -2464,7 +2464,7 @@ a{
 
 /*second-footer*/
 .footer-bottom{
-    background-image: url(".../img/footer-bottom.png") ;
+    background-image: url("../img/footer-bottom.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 430px;
@@ -2907,7 +2907,7 @@ a{
 
         .footer-bottom{
             background-size: cover;
-            background-image: url(".../img/footer-bottom-small.png");
+            background-image: url("../img/footer-bottom-small.png");
         }
 
 
