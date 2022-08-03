@@ -1791,7 +1791,7 @@ a{
     color: #664B42;
     margin-bottom: 66px;
 }
-@media (max-width: 360px) {
+@media (max-width: 390px) {
     .supply-heading{
         font-weight: 700;
         font-size: 26px;
