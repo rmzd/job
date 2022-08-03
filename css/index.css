@@ -945,7 +945,7 @@ a{
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        gap: 30px;
+        gap: 20px;
         justify-content: center;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
