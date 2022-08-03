@@ -761,6 +761,10 @@ a{
     z-index: 100000;
     position: absolute;
 }
+.main-btm.active{
+    all: unset;
+}
+
 .header-up-item-right-burger{
 
 }
