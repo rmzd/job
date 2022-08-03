@@ -2190,7 +2190,7 @@ a{
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    gap: 161px;
+    gap: 149px;
 }
 .footer-item-input{
     display: flex;
