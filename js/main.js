@@ -33,7 +33,7 @@ $(function(){
 });
 $(document).ready(function() {
     $('.header-up-item-right-burger').click(function() {
-        $('.header-up-item-right-burger,.header-bottom,.header-bottom-inner,.header-bottom-inner-active,.header-bottom-item,.header-up-item-right-svg-left,.main-btm, .video-play').toggleClass('active');
+        $('.header-up-item-right-burger,.header-bottom,.header-bottom-inner,.header-bottom-inner-active,.header-bottom-item,.header-up-item-right-svg-left,.main-btm, .video-play, .main-up').toggleClass('active');
         $('body').toggleClass('lock');
     });
 });
