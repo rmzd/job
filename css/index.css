@@ -1978,8 +1978,7 @@ a{
 }
 @media (max-width: 390px) {
     .video-second{
-        min-width: 390px;
-        max-height: 200px;
+        max-width: 390px;
         min-height: 200px;
     }
 }
