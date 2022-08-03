@@ -2447,15 +2447,22 @@ a{
     .footer-item-middle{
         gap:16px;
     }
-    .footer-item-left-up{
+    .footer-item-left-up {
         margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 110%;
     }
-    .footer-item-left-middle{
+    .footer-item-left-middle {
         margin-bottom: 26px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
     }
     .footer-item-left-bottom{
         margin-bottom: 59.68px;
     }
+    
     .contact-customers{
         min-width: 348px;
         max-width: 348px;
