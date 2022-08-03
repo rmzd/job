@@ -1416,9 +1416,16 @@ a{
     .zerno-picture img{
         max-width: 4907px;
         max-height: 200px;
-
     }
-
+    .zerno-left-text-up{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 110%;
+    } 
+    .zerno-left-text-bottom{
+        font-size: 16px;
+    line-height: 130%;
+    }
 }
 
 /*zerno*/
