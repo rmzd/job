@@ -1897,11 +1897,13 @@ a{
         transform: rotate(180deg);
         position: absolute;
     }
-    .video-second{
-        max-width: 497px;
-        max-height: 297px;
-        min-height: 297px;
-    }
+.video-second {
+    max-width: 1111px;
+    min-width: 1111px;
+    max-height: 514px;
+    min-height: 514px;
+    margin-left: -100px;
+}
 }
 @media (max-width: 980px) {
     .flower{
