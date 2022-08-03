@@ -378,6 +378,9 @@ a{
         margin-top: 30px;
     }
 }
+.main-up.active{
+    display: none;   
+}
 @media (max-width: 1000px) {
     .header-bottom{
         display: none;
@@ -1886,12 +1889,13 @@ a{
 .flower-tracery{
     position: relative;
 }
+}
 .video-second{
     max-width: 1111px;
     max-height: 514px;
     min-height: 514px;
 }
-}
+
 @media (max-width: 1800px) {
     .flower-picture img{
         max-width: 700px;
