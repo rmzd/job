@@ -1796,9 +1796,10 @@ a{
     display: -webkit-flex;
     display: -ms-flexbox;
     width: 100%;
-    background: #FAFAFA;
+    background: #FFFFFF;
     position: relative;
     margin-top: 138px;
+
 }
 .flower-pic{
     margin-top: -123px;
@@ -1819,7 +1820,7 @@ a{
     display: none;
 }
 .flower-left-text{
-    background: #FAFAFA ;
+    background: #FFFFFF;
     margin-top: 154px;
     margin-left: 149px;
 }
@@ -1889,7 +1890,11 @@ a{
         position: absolute;
     }
     .flower-image{
-        display: none;
+        min-width: 1920px;
+        left: 0;
+        top: -22px;
+        margin-left: 23px;
+        transform: rotate(180deg);
         position: absolute;
     }
     .video-second{
@@ -1921,6 +1926,10 @@ a{
         width: 100%;
         min-width: 413px;
         margin: 0 auto;
+    }
+    .flower-image{
+    display: none;
+        position: absolute;
     }
 }
 @media (max-width: 390px) {
