@@ -2319,7 +2319,7 @@ a{
 .custom-checkbox:checked+label::before {
      border-color: #FFFFFF;
      background-color: #FD9F32;
-     background-image: url(".../img/vector.png");
+     background-image: url("../img/vector.png");
     background-size:11px 7.5px;
  }
 
