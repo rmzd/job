@@ -545,6 +545,7 @@ a{
 /*main*/
 .main{
     margin-left: 64px;
+    margin-top: 30px;
 }
 .main-up {
     display: flex;
