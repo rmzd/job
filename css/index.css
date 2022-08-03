@@ -1862,7 +1862,6 @@ a{
         padding-top: 60px;
     }
 }
-@media (max-width: 1800px){
 .flower-left-text-up{
     font-weight: 800;
     font-size: 36px;
@@ -1888,7 +1887,6 @@ a{
 }
 .flower-tracery{
     position: relative;
-}
 }
 .video-second{
     max-width: 1111px;
