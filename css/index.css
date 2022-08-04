@@ -620,11 +620,6 @@ a{
         min-width: 0;
     }
 }
-@media (max-width: 1824px) {
-    .slider-tracery{
-        display: none;
-    }
-}
 @media (max-width: 1024px) {
     .slider-tracery img {
         transform: rotate(180deg);
