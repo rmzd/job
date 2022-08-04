@@ -1123,7 +1123,7 @@ a{
         font-size: 18px;
     }
 }
-@media (max-width: 570px) {
+@media (max-width: 900px) {
     .card{
         gap: 24px;
         margin-bottom: 100px;
