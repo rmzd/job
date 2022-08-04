@@ -1932,14 +1932,14 @@ a{
         display: none;
         position: absolute;
     }
-    .flower-image{
-        min-width: 1920px;
-        left: 0;
-        top: -22px;
-        margin-left: 23px;
-        transform: rotate(180deg);
-        position: absolute;
-    }
+.flower-image {
+    min-width: 1920px;
+    left: 0;
+    top: -25px;
+    margin-left: 24px;
+    transform: rotate(180deg);
+    position: absolute;
+}
     .video-second{
         max-width: 497px;
         max-height: 297px;
